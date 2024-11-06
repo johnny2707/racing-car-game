@@ -1,0 +1,105 @@
+/* Index */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#main {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Menu */
+
+#menu {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background-image: url("../media/images/menu-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    padding: 0;
+    margin-top: 6vw;
+    margin-bottom: 9.8vh;
+    font-size: 4rem;
+    color: #FFFDA8;
+    text-shadow: 4px 4px 5px black;
+}
+
+/* Rules */
+
+#rules {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background-image: url("../media/images/rules-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 4.89vw;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.btn-menu {
+    width: 23.72vw;
+    height: 3.56vw;
+    background-image: linear-gradient(to right,#FF8A93,#B95BBB);
+    margin-bottom: 1.19vw;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border: 2px solid #5A2988;
+    border-radius: 0.5vw;
+}
+
+.btn-menu:hover {
+    background-image: linear-gradient(to left,#FF8A93,#B95BBB);
+}
+
+.btn-back {
+    width: 11.86vw;
+    height: 3.56vw;
+    background-image: linear-gradient(to right,#FF8A93,#B95BBB);
+    font-size: 2.4rem;
+    font-weight: 600;
+    border: 2px solid #5A2988;
+    border-radius: 0.5vw;
+}
+
+.btn-back:hover {
+    background-image: linear-gradient(to left,#FF8A93,#B95BBB);
+}
