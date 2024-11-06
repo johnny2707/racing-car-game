@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Race Car Game</title>
+    <title>Car Race Game</title>
 </head>
 <body onkeydown="mover(event)">
     <?php

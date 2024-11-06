@@ -27,7 +27,7 @@ body {
     padding: 0;
     margin: 0;
     top: 0;
-    background-image: url("../media/images/menu-background.png");
+    background-image: url("../media/images/menuBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -54,7 +54,7 @@ body {
     padding: 0;
     margin: 0;
     top: 0;
-    background-image: url("../media/images/rules-background.png");
+    background-image: url("../media/images/rulesBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
